@@ -1,0 +1,33 @@
+@media all and (max-width: 824px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+	#photoBackground {
+		background-image: url(../images/dawn.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.kitty {
+		content: url(../images/kitten-large.png);
+		padding-left: 30%;
+		padding-top: 30%;
+		width: 70%;
+	}
+}
+
+@media all and (max-width: 534px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+	#photoBackground {
+		background-image: url(../images/night.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.kitty {
+		content: url(../images/kitten-small.png);
+		padding-left: 30%;
+		padding-top: 30%;
+		width: 50%;
+	}
+}
